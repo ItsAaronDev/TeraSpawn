@@ -1,0 +1,29 @@
+fist_join:
+  delay: 30 # Delay on first join in milliseconds to prevent bugs
+  message:
+    broadcast:
+      enabled: true
+      text:
+        - '&e╔════════╣ &7New Player &e╠════════╗'
+        - '&e╠     &a%player_name%'
+        - '&e╠     &aSay hello!'
+        - '&e╚════════╣ &7New Player &e╠════════╝'
+    self:
+      enabled: true
+      text:
+        - '%teracore_prefix% &eWelcome to our server!'
+        - '%teracore_prefix% &eRead our rules with /rules!'
+
+commands:
+  setspawn:
+    permission: 'teraspawn.setspawn'
+    message: '%teracore_prefix% &7Spawn set!'
+
+  setfirstspawn:
+    permission: 'teraspawn.setfirstspawn'
+    message: '%teracore_prefix% &7First join spawn set!'
+
+  spawn:
+    message:
+      enabled: false
+      text: '%teracore_prefix% &7You have been teleported to the spawn!'

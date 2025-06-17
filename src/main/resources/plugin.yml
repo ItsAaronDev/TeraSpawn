@@ -1,0 +1,11 @@
+name: TeraSpawn
+version: '1.2'
+main: me.aaron.teraSpawn.SpawnMain
+api-version: '1.21'
+commands:
+  spawn:
+    usage: /<command>
+  setspawn:
+    usage: /<command>
+  setfirstspawn:
+    usage: /<command>
